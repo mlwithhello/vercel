@@ -5,32 +5,39 @@ export default function Skills() {
         <h1 className="text-xl font-semibold border-b-2 pb-1 w-fit mb-5">
           Skills
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="rounded-md bg-neutral-900 p-3 pb-4 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
-            <h2 className="text-lg font-semibold lg:font-medium pb-1 border-b border-neutral-500">
+        <div className="grid grid-cols-1 md:grid-cols-20 lg:grid-cols-100 gap-6">
+          <div className="rounded-md bg-neutral-1000 p-3 pb-4 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
+            {/* <h2 className="text-lg font-semibold lg:font-medium pb-1 border-b border-neutral-500">
               Data Storage
-            </h2>
+            </h2> */}
             <div className="flex flex-wrap gap-2 ">
-              <p className="rounded-md text-[14px] bg-blue-500 px-2 py-1.5">
-                Azure Storage account
-              </p>
-              <p className="rounded-md text-[14px] bg-neutral-950 px-2 py-1.5">
-                Azure Cosmos DB
-              </p>
-              <p className="rounded-md text-[14px] bg-red-500 px-2 py-1.5">
-                Azure Data Lake
-              </p>
-              <p className="rounded-md text-[14px]  bg-orange-500  px-2 py-1.5">
-                Azure SQL
-              </p>
-              <p className="rounded-md text-[14px]  bg-green-500  px-2 py-1.5">
-                Azure Synapse Analytics
-              </p>
+            <p className="rounded-md text-[18px] bg-neutral-950 px-20 py-1.5">
+                Python
+              </p> 
+              <p className="rounded-md text-[18px] bg-neutral-950 px-20 py-1.5">
+                Django
+              </p> 
+              <p className="rounded-md text-[18px] bg-neutral-950 px-20 py-1.5">
+                REST APIss
+              </p> 
+              <p className="rounded-md text-[18x] bg-neutral-950 px-20 py-1.5 whitespace-nowrap">
+                SDLC
+              </p> 
+              <p className="rounded-md text-[18px] bg-neutral-950 px-20 py-1.5">
+                Git
+              </p> 
+
+             
+
+             
+              
+             
+              
               
               
             </div>
           </div>
-          <div className="rounded-md bg-neutral-900 p-3 pb-4 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
+          {/* <div className="rounded-md bg-neutral-900 p-3 pb-4 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
             <h2 className="text-lg font-semibold lg:font-medium pb-1 border-b border-neutral-500">
               Data Transformation
             </h2>
@@ -44,11 +51,14 @@ export default function Skills() {
               <p className="rounded-md text-[14px]  bg-neutral-950  px-2 py-1.5">
                 Azure Stream Analytics
               </p>
+              <p className="rounded-md text-[14px]  bg-green-500  px-2 py-1.5">
+                Azure Synapse Analytics
+              </p>
               <p className="rounded-md text-[14px]  bg-red-500  px-2 py-1.5">
                 Azure HD Insight
               </p>
             </div>
-          </div>
+          </div> */}
 
 
 
@@ -56,7 +66,7 @@ export default function Skills() {
 
 
 
-          <div className="rounded-md bg-neutral-900 p-3 pb-4 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
+          {/* <div className="rounded-md bg-neutral-900 p-3 pb-4 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
             <h2 className="text-lg font-semibold lg:font-medium pb-1 border-b border-neutral-500">
             Programming Languages
             </h2>
@@ -71,10 +81,10 @@ export default function Skills() {
                 Pyspark
               </p>
             </div>
-          </div>
+          </div> */}
 
 
-          <div className="rounded-md bg-neutral-900 p-3 pb-4 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
+          {/* <div className="rounded-md bg-neutral-900 p-3 pb-4 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
             <h2 className="text-lg font-semibold lg:font-medium pb-1 border-b border-neutral-500">
               Database
             </h2>
@@ -84,9 +94,9 @@ export default function Skills() {
                 MySql
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="rounded-md bg-neutral-900 p-3 pb-10 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
+          {/* <div className="rounded-md bg-neutral-900 p-3 pb-10 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
   <h2 className="text-lg font-semibold lg:font-medium pb-1 border-b border-neutral-500">
     Big Data
   </h2>
@@ -107,7 +117,7 @@ export default function Skills() {
       Apache Spark
     </p>
   </div>
-</div>
+</div> */}
 
 
           
@@ -116,7 +126,7 @@ export default function Skills() {
 
       
 
-          <div className="rounded-md bg-neutral-900 p-3 pb-10 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
+          {/* <div className="rounded-md bg-neutral-900 p-3 pb-10 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
             <h2 className="text-lg font-semibold lg:font-medium pb-1 border-b border-neutral-500">
               Version_control
             </h2>
@@ -128,13 +138,13 @@ export default function Skills() {
                 Github
               </p>
             </div>
-          </div>
+          </div> */}
 
       
 
   
 
-
+{/* 
           <div className="rounded-md bg-neutral-900 p-3 pb-10 flex-1 flex flex-col gap-4 shadow-sm hover:shadow-md">
             <h2 className="text-lg font-semibold lg:font-medium pb-1 border-b border-neutral-500">
               Operating System
@@ -147,7 +157,7 @@ export default function Skills() {
                 Linux
               </p>
             </div>
-          </div>
+          </div> */}
 
 
         </div>
