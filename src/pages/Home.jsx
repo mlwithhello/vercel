@@ -22,7 +22,7 @@ export default function Home() {
               </div>
               <div>
                 <h1 className="text-2xl">Sanket Arali</h1>
-                <p className="text-[16px]">Data Engineer</p>
+                <p className="text-[16px]">Django Developer</p>
               </div>
             </div>
           </div>
