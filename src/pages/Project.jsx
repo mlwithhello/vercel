@@ -5,7 +5,14 @@ import { NavLink } from "react-router-dom";
 import blog from "../assets/blog.png";
 import gocart from "../assets/gocart.png";
 import { FaYoutube } from "react-icons/fa6";
-
+import razorpay from '../assets/razorpay.png';
+import student from '../assets/student.png';
+import resume from '../assets/resume.png';
+import blogapplication from '../assets/blogapplication.png';
+import tweer from '../assets/tweet.png';
+import email from '../assets/email.png';
+import todo from '../assets/todo.png';
+import weather from'../assets/weather.png';
 export default function Project() {
   return (
     <>
@@ -21,80 +28,75 @@ export default function Project() {
               <div>
                 <div className="w-full h-40">
                   <img
-                    src={blog}
+                    src={razorpay}
                     alt=""
                     className="rounded-t-md  w-full h-full"
                   />
                 </div>
                 <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
                   <h1 className="font-semibold lg:font-medium text-[18px]">
-                    Latest Tech Blog
+                    Razorpay Payment Integration
                   </h1>
                   <p className="text-neutral-400">
-                    It is a Full Stack Blog App. You can perform a Search & Filter
-                    acc. to category and oldest or newest post and like &
-                    comment on an individual post.
+                  This project demonstrates how to integrate Razorpay payment gateway with a Django application. It includes setting up payment processing for a fictional "Buy Me a Coffee" scenario, where users can donate 500 INR.
+
                   </p>
                   <p className="text-neutral-400">
-                    React | Redux | Material UI | Tailwind CSS | Node.js |
-                    Express | MongoDB
+                  Django | Razorpay Integration | HTML | CSS | Bootstrap
                   </p>
                   <div className="flex space-x-4 py-1">
                     <NavLink
-                      to="https://github.com/prabhat63s/mern_blog"
+                      to="https://github.com/Sanketarali/Razorpay_Payment_Integration"
                       className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
                     >
                       <FaGithub  className="text-text-light pr-1" size={16} />{" "}
                       Code
                     </NavLink>
-                    <NavLink
-                      to="https://youtu.be/vTLtd5Fz8Yo"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaYoutube className="text-text-light pr-1" size={16} />{" "}
-                      Youtube
-                    </NavLink>
+                    
                   </div>
                 </div>
               </div>
             </div>
+
+            
+
+
+
+
+
+
+
+
             <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
               <div>
                 <div className="w-full h-40">
                   <img
-                    src={blog}
+                    src={student}
                     alt=""
                     className="rounded-t-md  w-full h-full"
                   />
                 </div>
                 <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
                   <h1 className="font-semibold lg:font-medium text-[18px]">
-                    Latest Tech Blog
+                  Student management system
                   </h1>
                   <p className="text-neutral-400">
-                    It is a Full Stack Blog App. You can perform a Search & Filter
-                    acc. to category and oldest or newest post and like &
-                    comment on an individual post.
+                  A Django web app for efficient student record management, streamlining CRUD operations to simplify adding, updating, and removing data.
                   </p>
                   <p className="text-neutral-400">
-                    React | Redux | Material UI | Tailwind CSS | Node.js |
-                    Express | MongoDB
+
+                  Django | Python | Django Forms | HTML/CSS | CRUD Operations | Django Models
+                   
                   </p>
                   <div className="flex space-x-4 py-1">
                     <NavLink
-                      to="https://github.com/prabhat63s/mern_blog"
+                      to="https://github.com/Sanketarali/Student-Management-system"
                       className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
                     >
                       <FaGithub  className="text-text-light pr-1" size={16} />{" "}
                       Code
                     </NavLink>
-                    <NavLink
-                      to="https://youtu.be/vTLtd5Fz8Yo"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaYoutube className="text-text-light pr-1" size={16} />{" "}
-                      Youtube
-                    </NavLink>
+                    
                   </div>
                 </div>
               </div>
@@ -104,39 +106,39 @@ export default function Project() {
               <div>
                 <div className="w-full h-40">
                   <img
-                    src={blog}
+                    src={tweer}
                     alt=""
                     className="rounded-t-md  w-full h-full"
                   />
                 </div>
                 <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
                   <h1 className="font-semibold lg:font-medium text-[18px]">
-                    Latest Tech Blog
+                  Tweet Application
                   </h1>
                   <p className="text-neutral-400">
-                    It is a Full Stack Blog App. You can perform a Search & Filter
-                    acc. to category and oldest or newest post and like &
-                    comment on an individual post.
+                  A simple Django web application that allows users to create, view, edit, and delete tweets. This application includes user registration and authentication features, enabling users to manage their tweets with images.
+
+
                   </p>
                   <p className="text-neutral-400">
-                    React | Redux | Material UI | Tailwind CSS | Node.js |
-                    Express | MongoDB
+                  Django | HTML | CSS | Bootstrap | SQLite | Django Models | Django Forms | CRUD Operations
+
+
+
+
+
+
+
                   </p>
                   <div className="flex space-x-4 py-1">
                     <NavLink
-                      to="https://github.com/prabhat63s/mern_blog"
+                      to="https://github.com/Sanketarali/Tweet-Application"
                       className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
                     >
                       <FaGithub  className="text-text-light pr-1" size={16} />{" "}
                       Code
                     </NavLink>
-                    <NavLink
-                      to="https://youtu.be/vTLtd5Fz8Yo"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaYoutube className="text-text-light pr-1" size={16} />{" "}
-                      Youtube
-                    </NavLink>
+                    
                   </div>
                 </div>
                 
@@ -146,39 +148,33 @@ export default function Project() {
               <div>
                 <div className="w-full h-40">
                   <img
-                    src={blog}
+                    src={email}
                     alt=""
                     className="rounded-t-md  w-full h-full"
                   />
                 </div>
                 <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
                   <h1 className="font-semibold lg:font-medium text-[18px]">
-                    Latest Tech Blog
+                  Poll Application
+
                   </h1>
                   <p className="text-neutral-400">
-                    It is a Full Stack Blog App. You can perform a Search & Filter
-                    acc. to category and oldest or newest post and like &
-                    comment on an individual post.
+                  A simple web application built using Django that allows users to create polls, vote on them, and view the results. The application is designed to help users engage with multiple-choice questions and see the results.
+
+
                   </p>
                   <p className="text-neutral-400">
-                    React | Redux | Material UI | Tailwind CSS | Node.js |
-                    Express | MongoDB
+                  Django | Pyhon | HTML/CSS | Django Forms | Routing and URL Handling
                   </p>
                   <div className="flex space-x-4 py-1">
                     <NavLink
-                      to="https://github.com/prabhat63s/mern_blog"
+                      to="https://github.com/Sanketarali/Poll-Application"
                       className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
                     >
                       <FaGithub  className="text-text-light pr-1" size={16} />{" "}
                       Code
                     </NavLink>
-                    <NavLink
-                      to="https://youtu.be/vTLtd5Fz8Yo"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaYoutube className="text-text-light pr-1" size={16} />{" "}
-                      Youtube
-                    </NavLink>
+                    
                   </div>
                 </div>
                 
@@ -190,12 +186,187 @@ export default function Project() {
               <div>
                 <div className="w-full h-40">
                   <img
-                    src={gocart}
+                    src={weather}
                     alt=""
                     className="rounded-t-md  w-full h-full"
                   />
                 </div>
                 <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
+                  <h1 className="font-semibold lg:font-medium text-[18px]">
+                  Weather App
+                  </h1>
+                  <p className="text-neutral-400">
+                  This Django application fetches real-time weather data using the OpenWeatherMap API based on user input for city names.
+
+
+                  </p>
+                  <p className="text-neutral-400">
+                  
+                  </p>
+                  <p className="text-neutral-400">
+                  Django | HTML/CSS | Requests | OpenWeatherMap API | Python | HTTP Methods
+                  </p>
+                  <div className="flex space-x-4 py-1">
+                    <NavLink
+                      to="https://github.com/Sanketarali/Django-Weather-App"
+                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
+                    >
+                      <FaLink className="text-text-light pr-1" size={16} />{" "}
+                      code
+                    </NavLink>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
+              <div>
+                <div className="w-full h-40">
+                  <img
+                    src={todo}
+                    alt=""
+                    className="rounded-t-md  w-full h-full"
+                  />
+                </div>
+                <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
+                  <h1 className="font-semibold lg:font-medium text-[18px]">
+                  Todo application
+
+                  </h1>
+                  <p className="text-neutral-400">
+                  This is a simple To-Do application built using Django, allowing users to manage their daily tasks effectively.
+
+
+                  </p>
+                  <p className="text-neutral-400">
+                  
+                  </p>
+                  <p className="text-neutral-400">
+                  Django | Python | Bootstrap | HTML/CSS | Django Forms | CRUD Operations | Messages Framework
+
+
+
+
+
+
+
+                  </p>
+                  <div className="flex space-x-4 py-1">
+                    <NavLink
+                      to="https://github.com/Sanketarali/Django-Todo-application"
+                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
+                    >
+                      <FaLink className="text-text-light pr-1" size={16} />{" "}
+                      code
+                    </NavLink>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
+              <div>
+                <div className="w-full h-40">
+                  <img
+                    src={blogapplication}
+                    alt=""
+                    className="rounded-t-md  w-full h-full"
+                  />
+                </div>
+                <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
+                  <h1 className="font-semibold lg:font-medium text-[18px]">
+                  Blog Application
+
+                  </h1>
+                  <p className="text-neutral-400">
+                  This is a simple blog application built using the Django framework. It provides basic functionality for user authentication, post creation, and post management.
+
+
+                  </p>
+                  <p className="text-neutral-400">
+                  
+                  </p>
+                  <p className="text-neutral-400">
+                    Django | Python | HTML/CSS | SQLite | HTTP | Authentication System |
+                  </p>
+                  <div className="flex space-x-4 py-1">
+                    <NavLink
+                      to="https://github.com/Sanketarali/Blog-Application"
+                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
+                    >
+                      <FaLink className="text-text-light pr-1" size={16} />{" "}
+                      code
+                    </NavLink>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
+              <div>
+                <div className="w-full h-40">
+                  <img
+                    src={resume}
+                    alt=""
+                    className="rounded-t-md  w-full h-full"
+                  />
+                </div>
+                <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
+                  <h1 className="font-semibold lg:font-medium text-[18px]">
+                  Resume Builder
+
+                  </h1>
+                  <p className="text-neutral-400">
+                  This Django web app enables users to upload resumes, manage candidate details, and perform CRUD operations for profile information.
+
+
+
+
+
+
+
+                  </p>
+                  <p className="text-neutral-400">
+                  
+                  </p>
+                  <p className="text-neutral-400">
+                  Django | HTML | CSS | Bootstrap | SQLite | File Upload | CRUD Operations
+
+                  </p>
+                  <div className="flex space-x-4 py-1">
+                    <NavLink
+                      to="https://github.com/Sanketarali/Resume-Uploader-Using-Django"
+                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
+                    >
+                      <FaLink className="text-text-light pr-1" size={16} />{" "}
+                      code
+                    </NavLink>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+
+
+
+        
+
+
+            
+            {/* <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
+              <div> */}
+                {/* <div className="w-full h-40">
+                  <img
+                    src={gocart}
+                    alt=""
+                    className="rounded-t-md  w-full h-full"
+                  />
+                </div> */}
+                {/* <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
                   <h1 className="font-semibold lg:font-medium text-[18px]">
                     Gocart | Online shopping site
                   </h1>
@@ -218,198 +389,12 @@ export default function Project() {
                       Live
                     </NavLink>
                   </div>
-                </div>
-                
-              </div>
-            </div>
-
-            <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
-              <div>
-                <div className="w-full h-40">
-                  <img
-                    src={gocart}
-                    alt=""
-                    className="rounded-t-md  w-full h-full"
-                  />
-                </div>
-                <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
-                  <h1 className="font-semibold lg:font-medium text-[18px]">
-                    Gocart | Online shopping site
-                  </h1>
-                  <p className="text-neutral-400">
-                    It is a full-stack e-commerce site. where you can filter products acc. to price and category, add items to a cart, and check order history and payment with Braintree.
-                  </p>
-                  <p className="text-neutral-400">
-                  
-                  </p>
-                  <p className="text-neutral-400">
-                    React | Tailwind CSS | Node.js | Express |
-                    MongoDB | antd
-                  </p>
-                  <div className="flex space-x-4 py-1">
-                    <NavLink
-                      to="https://gocart.cyclic.app/"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaLink className="text-text-light pr-1" size={16} />{" "}
-                      Live
-                    </NavLink>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-
-            <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
-              <div>
-                <div className="w-full h-40">
-                  <img
-                    src={gocart}
-                    alt=""
-                    className="rounded-t-md  w-full h-full"
-                  />
-                </div>
-                <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
-                  <h1 className="font-semibold lg:font-medium text-[18px]">
-                    Gocart | Online shopping site
-                  </h1>
-                  <p className="text-neutral-400">
-                    It is a full-stack e-commerce site. where you can filter products acc. to price and category, add items to a cart, and check order history and payment with Braintree.
-                  </p>
-                  <p className="text-neutral-400">
-                  
-                  </p>
-                  <p className="text-neutral-400">
-                    React | Tailwind CSS | Node.js | Express |
-                    MongoDB | antd
-                  </p>
-                  <div className="flex space-x-4 py-1">
-                    <NavLink
-                      to="https://gocart.cyclic.app/"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaLink className="text-text-light pr-1" size={16} />{" "}
-                      Live
-                    </NavLink>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-
-            <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
-              <div>
-                <div className="w-full h-40">
-                  <img
-                    src={gocart}
-                    alt=""
-                    className="rounded-t-md  w-full h-full"
-                  />
-                </div>
-                <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
-                  <h1 className="font-semibold lg:font-medium text-[18px]">
-                    Gocart | Online shopping site
-                  </h1>
-                  <p className="text-neutral-400">
-                    It is a full-stack e-commerce site. where you can filter products acc. to price and category, add items to a cart, and check order history and payment with Braintree.
-                  </p>
-                  <p className="text-neutral-400">
-                  
-                  </p>
-                  <p className="text-neutral-400">
-                    React | Tailwind CSS | Node.js | Express |
-                    MongoDB | antd
-                  </p>
-                  <div className="flex space-x-4 py-1">
-                    <NavLink
-                      to="https://gocart.cyclic.app/"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaLink className="text-text-light pr-1" size={16} />{" "}
-                      Live
-                    </NavLink>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-
-            <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
-              <div>
-                <div className="w-full h-40">
-                  <img
-                    src={gocart}
-                    alt=""
-                    className="rounded-t-md  w-full h-full"
-                  />
-                </div>
-                <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
-                  <h1 className="font-semibold lg:font-medium text-[20px]">
-                    Gocart | Online shopping site
-                  </h1>
-                  <p className="text-neutral-400">
-                    It is a full-stack e-commerce site. where you can filter products acc. to price and category, add items to a cart, and check order history and payment with Braintree.
-                  </p>
-                  <p className="text-neutral-400">
-                  
-                  </p>
-                  <p className="text-neutral-400">
-                    React | Tailwind CSS | Node.js | Express |
-                    MongoDB | antd
-                  </p>
-                  <div className="flex space-x-4 py-1">
-                    <NavLink
-                      to="https://gocart.cyclic.app/"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaLink className="text-text-light pr-1" size={16} />{" "}
-                      Live
-                    </NavLink>
-                  </div>
-                </div>
+                </div> */}
 
                 
                 
-              </div>
-            </div>
-            <div className="rounded-md bg-neutral-900 shadow-sm hover:shadow-md">
-              <div>
-                <div className="w-full h-40">
-                  <img
-                    src={gocart}
-                    alt=""
-                    className="rounded-t-md  w-full h-full"
-                  />
-                </div>
-                <div className="text-[12px] px-4 py-2 space-y-2 flex flex-col">
-                  <h1 className="font-semibold lg:font-medium text-[18px]">
-                    Gocart | Online shopping site
-                  </h1>
-                  <p className="text-neutral-400">
-                    It is a full-stack e-commerce site. where you can filter products acc. to price and category, add items to a cart, and check order history and payment with Braintree.
-                  </p>
-                  <p className="text-neutral-400">
-                  
-                  </p>
-                  <p className="text-neutral-400">
-                    React | Tailwind CSS | Node.js | Express |
-                    MongoDB | antd
-                  </p>
-                  <div className="flex space-x-4 py-1">
-                    <NavLink
-                      to="https://gocart.cyclic.app/"
-                      className="flex items-center bg-neutral-100 rounded-md text-black hover:text-white hover:bg-neutral-800 w-fit py-1 text-[12px] px-3"
-                    >
-                      <FaLink className="text-text-light pr-1" size={16} />{" "}
-                      Live
-                    </NavLink>
-                  </div>
-                </div>
-
-                
-                
-              </div>
-            </div>
+              {/* </div>
+            </div> */}
           </div>
         </div>
 
